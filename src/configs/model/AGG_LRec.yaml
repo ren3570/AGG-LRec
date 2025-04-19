@@ -1,0 +1,37 @@
+embedding_size: 64
+n_ui_layers: 4
+n_layers_t: 1
+reg_weight: 1e-04
+lambda_reg: 1e-4
+knn_k: 10
+temperature: 0.2
+learning_rate: 0.001
+dim_anchor: 8
+stopping_step: 10
+cluster_loss: 1
+cluster_beta: 0.5
+
+## # baby
+learning_rate_scheduler: [0.85,10]
+n_anchor: 18
+dropout: 0.2
+cl_loss: 0.01
+n_layers_v: 2
+vt_loss: 0.01
+
+## # sports
+#learning_rate_scheduler: [0.9, 15]
+#n_anchor: 18
+#dropout : 0.4
+#cl_loss: 0.02
+#n_layers_v: 1
+#vt_loss: 0
+
+## # clothing
+#learning_rate_scheduler: [0.90,20]
+#n_anchor:  26
+#dropout: 0
+#cl_loss: 0.01
+#n_layers_v: 1
+#vt_loss: 0.01
+
