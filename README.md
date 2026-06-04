@@ -44,12 +44,3 @@ If you find this work useful, please consider citing:
   url={https://api.semanticscholar.org/CorpusID:288565834}
 }
 ```
-
----
-
-## Acknowledgements
-
-We thank the authors of previous multimedia recommendation and graph neural network research for making their code and datasets publicly available.
-
----
-
