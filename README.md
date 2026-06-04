@@ -21,7 +21,7 @@ We argue that dense interactions introduce two critical issues:
 * **Bottleneck Problem:** excessive neighborhood aggregation weakens the ability to capture personalized preferences.
 * **Noise Propagation:** dense connections increase the likelihood of propagating irrelevant information.
 
-To address these issues, we propose **AGG-LRec (Anchor Node Guided Global–Local Graph Neural Networks for Multimedia Recommendation)**, a novel recommendation framework that jointly models global and local collaborative information through anchor nodes.
+To address these issues, we propose **AGG-LRec**, a novel recommendation framework that jointly models global and local collaborative information through anchor nodes.
 
 ---
 
